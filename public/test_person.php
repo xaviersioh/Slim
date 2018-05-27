@@ -16,7 +16,7 @@
 	$obj_person2 = new Person();
 
 	$obj_person2->set_value('name', 'Fred');
-	$obj_person2->set_value('date_of_birth', '');
+	$obj_person2->set_value('date_of_birth', '21 October 2011');
 //	$obj_person2->set_value('date_of_birth', 'blue');
 //	$obj_person2->set_value('date_of_birth', '21 October 2011');
 	$arr_output[2] = $obj_person2->say_hello();
